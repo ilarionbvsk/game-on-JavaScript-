@@ -8,7 +8,8 @@ hole.addEventListener('animationiteration', () => {
   hole.style.top = random + "px";
   // counter++;
 });
-setInterval(function() {
-var characterTop = pasetInt(window.getComputedStyle(character).getPropertyValue("top"));
-character.stlye.top = (characterTop + 3) + "px";
-},10);
+setInterval(function(){
+  var characterTop =   
+  parseInt(window.getComputedStyle(character).getPropertyValue("top"));
+  character.stlye.top = (characterTop + 3) + "px";
+},10);+
